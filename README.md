@@ -5,10 +5,10 @@ This is my incomplete disassembly of R11A from Sonic CD from 2020. Files are spl
 Special thanks to Flamewing and TheStoneBanana for extensive help over the years.
 
 ## Quick notes
+* Stack base is left as the default Sega CD one (0xFFFD00)
+* DPLCs are in Sonic 2 format
 * Blocks are Nemesis compressed
 * Chunks are uncompressed
-* DPLCs are in Sonic 2 format
 * Chunks are hardcoded at 0x210000 (see wiki on how to fix that)
 * Object layouts have a second subtype byte
 * Otherwise, level formats are the same as in Sonic 1
-* Stack base is left as the default Sega CD one (0xFFFD00)
