@@ -9,4 +9,4 @@ Special thanks to Flamewing and TheStoneBanana for extensive help over the years
 * Chunks are uncompressed
 * DPLCs are in Sonic 2 format
 * Chunks are hardcoded at 0x210000 (see wiki on how to fix that)
-* Stack pointer is left as the default Sega CD one (0xFFFD00)
+* Stack base is left as the default Sega CD one (0xFFFD00)
