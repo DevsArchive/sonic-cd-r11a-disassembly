@@ -4,4 +4,8 @@ This is my incomplete disassembly of R11A from Sonic CD from 2020. Files are spl
 
 Special thanks to Flamewing and TheStoneBanana for extensive help over the years.
 
-See the wiki for any additional information.
+## Quick notes
+* Blocks are Nemesis compressed
+* Chunks are uncompressed
+* DPLCs are in Sonic 2 format
+* Chunks are hardcoded at 0x210000 (see wiki on how to fix that)
