@@ -11,4 +11,4 @@ Special thanks to Flamewing and TheStoneBanana for extensive help over the years
 * Chunks are uncompressed
 * Chunks are hardcoded at 0x210000 (see wiki on how to fix that)
 * Object layouts have a second subtype byte
-* Otherwise, level formats are the same as in Sonic 1 (including 256x256 chunks and the hardcoded "loop"/"tunnel" chunks ID)
+* Otherwise, formats are the same as in Sonic 1
