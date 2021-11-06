@@ -87,7 +87,7 @@ CD_START		EQU	$000000			; CD memory start
 WORDRAM_2M		EQU	CD_START+$200000	; Word RAM start in 2M mode
 WORDRAM_1M		EQU	CD_START+$200000	; Word RAM start in 1M mode
 CELL_IMAGE		EQU	WORDRAM_1M+$20000	; Bitmap to cell conversion buffer
-PRG_RAM			EQU	CD_START+$400000	; PRG-RAM bank start
+PRG_RAM			EQU	CD_START+$20000		; PRG-RAM bank start
 SP_START		EQU	PRG_RAM+$6000		; Sub CPU program start in PRG-RAM bank
 IP_START		EQU	RAM_START		; Initial program start
 
